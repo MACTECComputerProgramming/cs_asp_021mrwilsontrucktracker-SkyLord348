@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Challenge_21_LPB</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="semipic.jfif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Media\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="semipic.jfif" />
+  </ItemGroup>
+
+</Project>
